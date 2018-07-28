@@ -5,7 +5,7 @@ const Dojos = data.sequelize.define('dojo', {
     id: { type: Sequelize.INTEGER, primaryKey: true },
     name: { type: Sequelize.STRING },
     style: { type: Sequelize.STRING },
-},
+    },
     {
         timestamps: false,
         freezeTableName: true
